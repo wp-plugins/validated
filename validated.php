@@ -3,7 +3,7 @@
 Plugin Name: Validated
 Plugin URI: http://www.collinsinternet.net/validated/
 Description: W3C Validation
-Version: 1.0.1
+Version: 1.0.2
 Author: Allan Collins
 Author URI: http://www.allancollins.net/
 */

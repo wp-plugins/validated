@@ -9,8 +9,11 @@ var url= new Array();
 var slug=new Array();
 var IDs = new Array();
 <?php 
+global $wpdb;
+$prefix=$wpdb->prefix;
+$myQuery="SELECT ID,post_name,guid FROM " . $prefix . "posts WHERE post_status='publish' ";
 
-$query=mysql_query("SELECT ID,post_name,guid FROM wp_posts WHERE post_status='publish' ");
+$query=mysql_query($myQuery);
 
 $i=0;
 
