@@ -3,12 +3,12 @@
 Plugin Name: Validated
 Plugin URI: http://www.collinsinternet.net/validated/
 Description: W3C Validation
-Version: 1.0
+Version: 1.0.1
 Author: Allan Collins
-Author URI: http://www.collinsinternet.net
+Author URI: http://www.allancollins.net/
 */
 /*
-Copyright (C) 2008 Collins Internet
+Copyright (C) 2009 Collins Internet / Allan Collins
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

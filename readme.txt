@@ -1,10 +1,10 @@
 === Validated ===
 Contributors: Allan Collins
 Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=acollins%40paonia%2ecom&item_name=Validated%20Plugin&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
-Tags: W3C, Validation, html, xhtml
+Tags: W3C, Validation, html, xhtml, code
 Requires at least: 2.5
 Tested up to: 2.7
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 This plugin will allow you to check your entire site against the W3C Validator.
 
@@ -27,5 +27,5 @@ Make sure your entire site has valid code.
 
 == Screenshots ==
 
-screenshot.jpg
+1. Example of validation.
 
