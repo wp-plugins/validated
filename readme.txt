@@ -1,12 +1,14 @@
 === Validated ===
-Contributors: Allan Collins
-Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=acollins%40paonia%2ecom&item_name=Validated%20Plugin&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
+Contributors: collinsinternet
+Donate link: http://www.allancollins.net
 Tags: W3C, Validation, html, xhtml, code
-Requires at least: 2.5
-Tested up to: 2.7
-Stable tag: 1.0.2
+Requires at least: 3.7
+Tested up to: 3.9
+Stable tag: 2.0.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin will allow you to check your entire site against the W3C Validator.
+This plugin will allow you to check your pages/posts HTML against the W3C Validator.
 
 == Description ==
 
@@ -19,11 +21,32 @@ Make sure your entire site has valid code.
 
 2. Activate the plugin.
 
-3. Go to Manage, and Validation (if < 2.7)
+3. Go to your posts or your pages and click the "Check" button.
 
-3a. Go to Tools, and Validation (if 2.7 or above)
+== Frequently Asked Questions ==
+
+= What does this plugin do? =
+
+This plugin will send the URL of your page or post to the W3C Validator to verify that you have valid HTML code.
+
+= Does this plugin automatically correct any validation errors? =
+
+No. If your page or post is invalid, a link to the W3C Validator is provided to show you what needs to be fixed.
+
+= I'm getting "Something went wrong" errors.  What should I do? =
+
+Verify that your page or post URL can be accessed publicly.  At this time, this plugin cannot test local/private development installations.  If you still encounter errors, please let me know by submitting it to the support forum here: http://wordpress.org/support/plugin/validated
 
 
+== Changelog ==
+
+= 2.0.0 =
+* Complete revamp of 1.0.2.
+* Utilizes WordPress HTTP API, output escaping and saving results into postmeta.
+
+
+== Upgrade Notice == 
+Versions prior to 2.0.0 are insecure and should not be running in production.  Upgrade now!
 
 == Screenshots ==
 
