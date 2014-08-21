@@ -3,7 +3,7 @@ Contributors: collinsinternet
 Donate link: http://www.allancollins.net
 Tags: W3C, Validation, html, xhtml, code
 Requires at least: 3.7
-Tested up to: 3.9
+Tested up to: 4.0
 Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,7 +12,7 @@ This plugin will allow you to check your pages/posts HTML against the W3C Valida
 
 == Description ==
 
-Make sure your entire site has valid code.
+Is your website up to W3C HTML coding standards?  This plugin will allow you to test each page or post on your site against the W3C Validator.
 
 
 == Installation ==
